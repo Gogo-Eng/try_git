@@ -11,7 +11,8 @@ int main(void) {
 	printf("%s %s", "Hello you are welcome to the frontman experience\n","Please type 1/0 to continue: ");
 	scanf("%d", &f);
 	
-	while (getchar() !='\n'); /* Clear the input buffer after ready f, ensuring that the newline character from the previous input doesn't interfere with fgets */
+	while (getchar() !='\n'); /* Clear the input buffer after ready f, ensuring that the newline
+				     character from the previous input doesn't interfere with fgets */
 	
 	if (f == 1) {
 	   printf("Enter Name: ");
